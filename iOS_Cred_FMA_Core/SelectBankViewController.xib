@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectBankViewController" customModule="iOS_Cred_FMA_Core" customModuleProvider="target">
+            <connections>
+                <outlet property="bankButton" destination="c6J-1R-ceS" id="AMh-Q0-cai"/>
+                <outlet property="bankIdLabel" destination="Koo-aL-S5G" id="t6y-Hk-dQz"/>
+                <outlet property="bankNameLabel" destination="Sgb-2h-jEI" id="vv1-d5-MHg"/>
+                <outlet property="bottomButton" destination="kyU-Wo-rq1" id="OHx-Xl-kyp"/>
+                <outlet property="changeAccountButton" destination="wwC-3R-vMO" id="7gE-17-Nra"/>
+                <outlet property="containerView" destination="vIN-7f-U7B" id="zbq-xN-q99"/>
+                <outlet property="descLabel" destination="T74-cg-Rzq" id="pQe-SO-aBN"/>
+                <outlet property="titleLabel" destination="Txz-R8-EED" id="xuR-gd-4pp"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vIN-7f-U7B">
+                    <rect key="frame" x="0.0" y="300" width="414" height="436"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kyU-Wo-rq1">
+                            <rect key="frame" x="0.0" y="376" width="414" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="Zqk-YI-Mzh"/>
+                            </constraints>
+                            <inset key="contentEdgeInsets" minX="10" minY="5" maxX="10" maxY="5"/>
+                            <state key="normal" title="Button"/>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Txz-R8-EED">
+                            <rect key="frame" x="20" y="20" width="374" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T74-cg-Rzq">
+                            <rect key="frame" x="20" y="51" width="374" height="20.333333333333329"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cred_hdfc_icon" translatesAutoresizingMaskIntoConstraints="NO" id="oSm-ak-kRG">
+                            <rect key="frame" x="20" y="101.33333333333331" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="Ti7-Ri-Pde"/>
+                                <constraint firstAttribute="width" constant="50" id="Zy8-6J-e2x"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sgb-2h-jEI">
+                            <rect key="frame" x="90" y="101.33333333333331" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Koo-aL-S5G">
+                            <rect key="frame" x="90" y="127.33333333333331" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6J-1R-ceS">
+                            <rect key="frame" x="365" y="114" width="25" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="25" id="ZVx-4P-i4b"/>
+                                <constraint firstAttribute="height" constant="25" id="lIa-rE-RdU"/>
+                            </constraints>
+                            <state key="normal" image="cred_unfilled_icon"/>
+                            <connections>
+                                <action selector="bankButtonPressed:" destination="-1" eventType="touchUpInside" id="3pg-1Z-tJy"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wwC-3R-vMO">
+                            <rect key="frame" x="20" y="201.33333333333331" width="66" height="28"/>
+                            <inset key="contentEdgeInsets" minX="10" minY="5" maxX="10" maxY="5"/>
+                            <state key="normal" title="Button"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="c6J-1R-ceS" secondAttribute="trailing" constant="24" id="Hp9-CY-HgD"/>
+                        <constraint firstItem="c6J-1R-ceS" firstAttribute="centerY" secondItem="oSm-ak-kRG" secondAttribute="centerY" id="QLA-X2-wYL"/>
+                        <constraint firstAttribute="trailing" secondItem="kyU-Wo-rq1" secondAttribute="trailing" id="VO9-Bs-kE0"/>
+                        <constraint firstItem="Koo-aL-S5G" firstAttribute="top" secondItem="Sgb-2h-jEI" secondAttribute="bottom" constant="5" id="Xhr-ea-tES"/>
+                        <constraint firstItem="T74-cg-Rzq" firstAttribute="leading" secondItem="Txz-R8-EED" secondAttribute="leading" id="ZqW-QP-ycT"/>
+                        <constraint firstItem="T74-cg-Rzq" firstAttribute="top" secondItem="Txz-R8-EED" secondAttribute="bottom" constant="10" id="aR6-a8-2Db"/>
+                        <constraint firstItem="Sgb-2h-jEI" firstAttribute="leading" secondItem="oSm-ak-kRG" secondAttribute="trailing" constant="20" id="ada-cP-rPo"/>
+                        <constraint firstItem="wwC-3R-vMO" firstAttribute="leading" secondItem="oSm-ak-kRG" secondAttribute="leading" id="b9P-q9-SLs"/>
+                        <constraint firstItem="Txz-R8-EED" firstAttribute="top" secondItem="vIN-7f-U7B" secondAttribute="top" constant="20" id="bYQ-nY-ZBc"/>
+                        <constraint firstAttribute="trailing" secondItem="Txz-R8-EED" secondAttribute="trailing" constant="20" id="d1Y-Me-3nc"/>
+                        <constraint firstItem="Txz-R8-EED" firstAttribute="leading" secondItem="vIN-7f-U7B" secondAttribute="leading" constant="20" id="dnu-HO-wh3"/>
+                        <constraint firstItem="oSm-ak-kRG" firstAttribute="leading" secondItem="T74-cg-Rzq" secondAttribute="leading" id="dyr-Fx-BxL"/>
+                        <constraint firstItem="wwC-3R-vMO" firstAttribute="top" secondItem="oSm-ak-kRG" secondAttribute="bottom" constant="50" id="eQe-Id-TdO"/>
+                        <constraint firstItem="oSm-ak-kRG" firstAttribute="top" secondItem="T74-cg-Rzq" secondAttribute="bottom" constant="30" id="fOn-5d-7Iv"/>
+                        <constraint firstItem="Sgb-2h-jEI" firstAttribute="top" secondItem="oSm-ak-kRG" secondAttribute="top" id="jY8-TH-MFe"/>
+                        <constraint firstItem="Koo-aL-S5G" firstAttribute="leading" secondItem="Sgb-2h-jEI" secondAttribute="leading" id="jed-N7-3sk"/>
+                        <constraint firstItem="kyU-Wo-rq1" firstAttribute="leading" secondItem="vIN-7f-U7B" secondAttribute="leading" id="jsz-GV-Ype"/>
+                        <constraint firstAttribute="trailing" secondItem="T74-cg-Rzq" secondAttribute="trailing" constant="20" id="kwC-AA-jia"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vIN-7f-U7B" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="300" id="Jnk-AX-R8E"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="vIN-7f-U7B" secondAttribute="trailing" id="R8T-33-sp1"/>
+                <constraint firstItem="vIN-7f-U7B" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="aBn-Ba-oCO"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="kyU-Wo-rq1" secondAttribute="bottom" id="uuE-Zf-Gqq"/>
+                <constraint firstAttribute="bottom" secondItem="vIN-7f-U7B" secondAttribute="bottom" id="zYP-Y8-Zsk"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="140.21739130434784"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cred_hdfc_icon" width="42" height="42"/>
+        <image name="cred_unfilled_icon" width="16.666666030883789" height="16.666666030883789"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
